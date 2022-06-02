@@ -218,21 +218,21 @@ def game(screen):
                     if player_level == 2:
                         generateLevel(circles, 11, LEVEL_2, 20, 1900, player)
                     elif player_level == 3:
-                        generateLevel(11, LEVEL_3, 18, 1800, player)
+                        generateLevel(circles, 11, LEVEL_3, 18, 1800, player)
                     elif player_level == 4:
-                        generateLevel(12, LEVEL_4, 16, 1700, player)
+                        generateLevel(circles,12, LEVEL_4, 16, 1700, player)
                     elif player_level == 5:
-                        generateLevel(12, LEVEL_5, 14, 1600, player)
+                        generateLevel(circles, 12, LEVEL_5, 14, 1600, player)
                     elif player_level == 6:
-                        generateLevel(13, LEVEL_6, 12, 1500, player)
+                        generateLevel(circles, 13, LEVEL_6, 12, 1500, player)
                     elif player_level == 7:
-                        generateLevel(13, LEVEL_7, 10, 1400, player)
+                        generateLevel(circles, 13, LEVEL_7, 10, 1400, player)
                     elif player_level == 8:
-                        generateLevel(14, LEVEL_8, 8, 1300, player)
+                        generateLevel(circles, 14, LEVEL_8, 8, 1300, player)
                     elif player_level == 9:
-                        generateLevel(14, LEVEL_9, 7, 1200, player)
+                        generateLevel(circles, 14, LEVEL_9, 7, 1200, player)
                     elif player_level == 10:
-                        generateLevel(20, LEVEL_10, 6, 1200, player)
+                        generateLevel(circles, 20, LEVEL_10, 6, 1200, player)
                     else:
                         # go to win screen with game summary
                         game_won(player_level, player_score, player_timeInGame)
